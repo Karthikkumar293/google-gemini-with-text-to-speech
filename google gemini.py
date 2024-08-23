@@ -3,10 +3,9 @@
 import os
 import google.generativeai as genai
 import pyttsx3
-print("hello world")
 
 # api_key
-api_key = "AIzaSyCTLC2WYTSlgh8nUn8D0BCTj_jOXnb4PnI"
+api_key = "api_key"
 
 # Configure the generative AI client
 genai.configure(api_key=api_key)
